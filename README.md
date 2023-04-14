@@ -1,3 +1,7 @@
-<img src="OOpRj.gif" width="240" height="180">
+<p style="text-align: center;">
+    <img src="OOpRj.gif" width="240" height="180">
+</p>
 
-<small><a href="https://imgur.com/gallery/OOpRj">via imgur</a></small>
+<p style="text-align: center;">
+    <small><a href="https://imgur.com/gallery/OOpRj">via imgur</a></small>
+</p>
