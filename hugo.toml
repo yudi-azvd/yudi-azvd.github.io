@@ -1,0 +1,49 @@
+baseURL = 'https://yudi-azvd.github.io'
+languageCode = 'pt-br'
+title = 'Yudi Yamane'
+
+theme = 'hugo-bearcub'
+
+defaultContentLanguage = 'pt'
+enableRobotsTXT = true
+
+description = 'Essa linda descrição'
+
+# Remove the "/posts/", "/categories/", "/tags/" prefixes from URLs.
+# permalinks:
+#     posts: '/:filename/'
+#     categories: '/:slug/'
+#     tags: '/:slug/'
+
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
+
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.pt]
+    title = "Yudi Yamane"
+    languageName = "pt-BR 🇧🇷"
+    LanguageCode = "pt-BR"
+    contentDir = "content"
+    [languages.pt.params]
+      madeWith = "Oi"
+
+[params]
+  title = 'Yudi Yamane'
+  description = 'Essa linda descrição'
+  madeWith = 'Oi'
+
+  favicon = 'images/logo.png'
+
+[params.author]
+  name = 'Yudi Yamane' # Your name as shown in the RSS feed metadata
+  email = 'yudiyamane@gmail.com' # Added to the footer so readers can reply to posts
+
