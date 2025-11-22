@@ -1,9 +1,38 @@
 # Oe
 
-Dá uma olhada no meu site, que tá mais pra um blog:
-https://yudi-azvd.github.io/.
+Repositório para o site: https://yudi-azvd.github.io/.
+
+## Setup e Build
+
+```sh
+yay -S hugo
+```
+
+```sh
+hugo serve
+```
+
+Site em http://localhost:1313/.
 
 <!-- 
+
+Hugo site from scratch:
+- https://zwbetz.com/make-a-hugo-blog-from-scratch/
+- https://github.com/zwbetz-gh/make-a-hugo-blog-from-scratch
+
+Table of contents:
+- https://gohugo.io/methods/page/tableofcontents/
+
+Footnotes:
+- https://discourse.gohugo.io/t/footnote-html-customization/40026
+- https://geekthis.net/post/hugo-footnotes-and-citations/
+
+
+---
+---
+---
+---
+
 
 Provavelmente vai ser o meu site, mas por enquanto é
 só um [blog](https://yudi-azvd.github.io/blog).
