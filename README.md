@@ -1,18 +1,34 @@
-# Oe
+# Site 
 
 Repositório para o site: https://yudi-azvd.github.io/.
 
-## Setup e Build
+## Servindo o site localmente
+
+Instale o gerador hugo usando o gerenciador de pacotes do seu sistema:
 
 ```sh
 yay -S hugo
 ```
 
+Inicie o servidor:
+
 ```sh
-hugo serve
+make serve
 ```
 
-Site em http://localhost:1313/.
+O site é servido localmente em http://localhost:1313/.
+
+## Novo artigo
+
+```sh
+./new.sh titulo-do-artigo.md
+```
+
+## Configuração opicional
+
+Pra configurar o fronmatter gerador por hugo new content, eu segui o tutorial:
+https://ajot.me/posts/setting-up-default-hugo-frontmatter/.
+
 
 <!-- 
 
