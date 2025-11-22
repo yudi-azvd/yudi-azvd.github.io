@@ -6,6 +6,7 @@ theme = 'hugo-bearcub'
 
 defaultContentLanguage = 'pt'
 enableRobotsTXT = true
+removePathAccents = true
 
 description = 'Essa linda descrição'
 
@@ -14,6 +15,8 @@ description = 'Essa linda descrição'
 #     posts: '/:filename/'
 #     categories: '/:slug/'
 #     tags: '/:slug/'
+[permalinks]
+  posts = "/:title"
 
 
 [markup]
