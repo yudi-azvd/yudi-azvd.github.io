@@ -19,8 +19,8 @@ printPathWarnings = true
 #     posts: '/:filename/'
 #     categories: '/:slug/'
 #     tags: '/:slug/'
-# [permalinks]
-#   posts = "/:title"
+[permalinks]
+  posts = "/:title"
 
 
 [markup]
@@ -28,6 +28,7 @@ printPathWarnings = true
     lineNos = true
     lineNumbersInTable = false
 
+    # https://xyproto.github.io/splash/docs/
     style = "monokai"
     # Gostei desses tabmém:
     # style = "emacs"
