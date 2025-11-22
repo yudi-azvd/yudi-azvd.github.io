@@ -12,16 +12,22 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 description = 'Essa linda descrição'
 
-printPathWarnings = true
+# Quando habilitado, emite warnings pra vários paths, mesmo
+# não tendo duplicatas, aparentemente. Pra comparação, quando é
+# usado o site mais básico, warnings semelhantes são emitidos.
+# pra reproduizr basta: (https://gohugo.io/getting-started/quick-start/#create-a-site)
+#     hugo new site quickstart
+#     cd quickstart
+#     git init
+#     git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+#     echo "theme = 'ananke'" >> hugo.toml
+#     hugo server --printPathWarnings
+# TODO: Ainda assim, eu queria deixar habilitado por segurança
+# printPathWarnings = true
 
-# Remove the "/posts/", "/categories/", "/tags/" prefixes from URLs.
-# permalinks:
-#     posts: '/:filename/'
-#     categories: '/:slug/'
-#     tags: '/:slug/'
+
 [permalinks]
   posts = "/:title"
-
 
 [markup]
   [markup.highlight]
