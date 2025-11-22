@@ -24,7 +24,7 @@ O site é servido localmente em http://localhost:1313/.
 ./new.sh titulo-do-artigo.md
 ```
 
-## Configuração opicional
+## Configuração opcional
 
 Pra configurar o fronmatter gerador por hugo new content, eu segui o tutorial:
 https://ajot.me/posts/setting-up-default-hugo-frontmatter/.
