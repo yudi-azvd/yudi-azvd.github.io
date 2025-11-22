@@ -8,25 +8,34 @@ defaultContentLanguage = 'pt'
 enableRobotsTXT = true
 removePathAccents = true
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
 description = 'Essa linda descrição'
+
+printPathWarnings = true
 
 # Remove the "/posts/", "/categories/", "/tags/" prefixes from URLs.
 # permalinks:
 #     posts: '/:filename/'
 #     categories: '/:slug/'
 #     tags: '/:slug/'
-[permalinks]
-  posts = "/:title"
+# [permalinks]
+#   posts = "/:title"
 
 
 [markup]
   [markup.highlight]
     lineNos = true
     lineNumbersInTable = false
-    # This allows Bear Cub to use a variation of Dracula that is more accessible
-    # to people with poor eyesight. For more information about color contrast
-    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
-    noClasses = false
+
+    style = "monokai"
+    # Gostei desses tabmém:
+    # style = "emacs"
+    # style = "perldoc"
+    # style = "pastie" # Não fosse o highlight esquisito nas strings
+    # style = "native"
+    # style = "doom-one2"
+    # style = "catppuccin-frappe"
 
 # Multilingual mode config. More for information about how to setup translation,
 # see https://gohugo.io/content-management/multilingual/
