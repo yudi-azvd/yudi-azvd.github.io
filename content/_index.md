@@ -14,7 +14,7 @@ Você pode ler os posts clicando em "Blog" ou [aqui](/posts).
 
 ## Sobre este site/blog
 
-Aqui eu vou postar as coisas interessantes que eu
+Aqui vou postar as coisas interessantes que eu
 aprendi ou fiz em engenharia de software, desenvolvimento de
 jogos, automação com programação e, quem sabe, na vida também.
 
