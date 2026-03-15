@@ -30,6 +30,9 @@ description = 'Essa linda descrição'
   posts = "/:title"
 
 [markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
   [markup.highlight]
     lineNos = true
     lineNumbersInTable = false
