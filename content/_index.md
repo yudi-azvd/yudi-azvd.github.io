@@ -12,6 +12,34 @@ Você pode ler os posts clicando em "Blog" ou [aqui](/posts).
 
 ---
 
+<!-- ### Recomendações  -->
+**Recomendações**: 
+**Livros**: 
+    20 Mil Léguas Submarinas; 
+    Eu, Robô; 
+    Diálogos Impossíveis; 
+    Devoradores de Estrelas;
+**Séries**: 
+    Cangaço Novo; The Bear; 
+    Andor; 
+    Love, Death and Robots;
+**Filmes**: 
+    Abraço de Mãe;
+    A Vida Secreta de Walter Mitty;
+    Matrix;
+**HQs**:
+    Gioconda;
+    Atelier of Witch Hat;
+**Jogos**: 
+    Ori and the Blind Forest;
+    Left 4 Dead;
+    Perspective;
+
+<!-- [Inspiração para formato dessa lista](https://pages.cs.wisc.edu/~remzi/OSTEP/) -->
+
+
+---
+
 ## Sobre este site/blog
 
 Aqui vou postar as coisas interessantes que eu
