@@ -2,6 +2,12 @@
 
 Repositório para o site: https://yudi-azvd.github.io/.
 
+## Clone
+
+```sh
+git clone git@github.com:yudi-azvd/yudi-azvd.github.io.git --recurse-submodules
+```
+
 ## Servindo o site localmente
 
 Instale o gerador hugo usando o gerenciador de pacotes do seu sistema:
